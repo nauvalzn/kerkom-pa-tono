@@ -3,8 +3,8 @@
 main()
 {
     int angka;
-    printf("Masukan Angka : "); scanf("%d", &angka);
-    
+    printf("Masukan Angka : ");
+    scanf("%d", &angka);
     if (angka > 0)
     {
         printf("%d Adalah Angka Positif", angka);
