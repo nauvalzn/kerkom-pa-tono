@@ -6,7 +6,7 @@ main()
     printf("Masukan 3 bilangan : ");
     scanf("%d %d %d", &A, &B, &C);
 
-    if (A >= B && A >= B)
+    if (A >= B && A >= C)
     {
         printf("Bilangan Terbesar Adalah %d\n", A);
     }
