@@ -7,14 +7,14 @@ main()
     
     if (angka > 0)
     {
-        ("%d Angka Adalah Positif");
+        printf("%d Adalah Angka Positif", angka);
     }
     else if (angka < 0)
     {
-        ("%d Angka Adalah Negatif");
+        printf("%d Adalah Angka Negatif", angka);
     }
     else
     {
-        ("%d Angka Adalah NOL");
+        printf("%d Adalah Angka NOL", angka);
     }
 }
