@@ -1,13 +1,8 @@
 
 #include <stdio.h>
-#include <conio.h>
-
-int main()
+main()
 {
     int a, b, hasil = 0, sisa;
-
-    clrscr();
-
     do
     {
         printf("Masukkan bilangan pertama : ");
@@ -16,27 +11,24 @@ int main()
         printf("Masukkan bilangan kedua : ");
         scanf("%d", &b);
 
-        if(a <= 0 || b <= 0)
+        if (a <= 0 || b <= 0)
         {
             printf("Bilangan harus positif!\n\n");
         }
-        else if(a % b != 0)
+        else if (a % b != 0)
         {
             printf("Bilangan pertama harus habis dibagi bilangan kedua!\n\n");
         }
 
-    } while(a <= 0 || b <= 0 || a % b != 0);
+    } while (a <= 0 || b <= 0 || a % b != 0);
 
     sisa = a;
 
-    while(sisa >= b)
+    while (sisa >= b)
     {
         sisa = sisa - b;
         hasil = hasil + 1;
     }
 
     printf("\nHasil pembagian %d / %d = %d", a, b, hasil);
-
-    getch();
-    return 0;
 }
