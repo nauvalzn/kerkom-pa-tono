@@ -6,7 +6,7 @@ main()
     printf("Masukan Tinggi Badan : ");  scanf("%d", &tb);
 
     if (tb >= 0 && tb <= 100)
-    {
+    { 
         printf("Tinggi saudara adalah Pendek");
     }
     else if (tb >= 101 && tb <= 150)
