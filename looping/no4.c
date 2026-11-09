@@ -31,7 +31,4 @@ main()
     }
 
     printf("\nHasil %d x %d = %d", a, b, hasil);
-
-    getch();
-    return 0;
 }
