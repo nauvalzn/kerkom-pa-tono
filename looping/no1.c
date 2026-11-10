@@ -1,7 +1,7 @@
-
 #include <stdio.h>
 
-main() {
+main() 
+{
     int i, j, prima;
 
     for (i = 2; i <= 100; i++) {

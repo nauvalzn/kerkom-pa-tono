@@ -1,7 +1,6 @@
-
 #include <stdio.h>
 
-int main() {
+main() {
     int i, j, n, angka = 1;
 
     printf("Jumlah Baris = ");
@@ -12,9 +11,6 @@ int main() {
             printf("%d ", angka);
             angka++;
         }
-
         printf("\n");
     }
-
-    return 0;
 }
