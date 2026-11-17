@@ -2,7 +2,7 @@
 
 main()
 {
-    int harga, total, subtotal, kembalian, pilihan, jenis;
+    int harga, total, subtotal, kembalian, pilihan, jenis, jumlah;
     puts("1.Mie");
     puts("2.Kopi");
     puts("3.Teh");
@@ -32,4 +32,59 @@ main()
 
     puts("pilih jenis pembelian");
     scanf("%d", &jenis);
+
+    switch (pilihan)
+    {
+    case 1:
+        switch (jenis)
+        {
+        case 1:
+            harga = 3000;
+            break;
+        case 2:
+            harga = 33000;
+            break;
+
+        case 3:
+            harga = 60000;
+            break;
+
+        default:
+            printf("Pilihan tidak tersedia");
+            break;
+        }
+        break;
+
+    case 2:
+        switch (jenis)
+        {
+        case 1:
+            harga = 2000;
+            break;
+        case 2:
+            harga = 23000;
+            break;
+        case 3:
+            harga = 43000;
+            break;
+        }
+        break;
+    case 3:
+        switch (jenis)
+        {
+        case 1:
+            harga = 1500;
+            break;
+        case 2:
+            harga = 16000;
+            break;
+        case 3:
+            harga = 32000;
+            break;
+        }
+        break;
+    }
+    printf("Masukan Jumlah yg ingin di beli");
+    scanf("%d", &jumlah);
+    
 }
