@@ -2,34 +2,34 @@
 
 main()
 {
-    int harga, total, subtotal, kembalian, pilihan ,jenis;
-    printf("1.Mie");
-    printf("2.Kopi");
-    printf("3.Teh");
+    int harga, total, subtotal, kembalian, pilihan, jenis;
+    puts("1.Mie");
+    puts("2.Kopi");
+    puts("3.Teh");
 
-    printf("Mau Pilih Mana");
-    scanf("%d",&pilihan);
+    puts("Mau Pilih Mana");
+    scanf("%d", &pilihan);
 
     switch (pilihan)
     {
     case 1:
-        printf("Anda memilih Mie");
+        puts("Anda memilih Mie");
         break;
     case 2:
-        printf("Anda memilih kopi");
+        puts("Anda memilih kopi");
         break;
     case 3:
-        printf("Anda memilih teh");
+        puts("Anda memilih teh");
         break;
     default:
-    printf("Pilihan Tdk tersedia");
+        puts("Pilihan Tdk tersedia");
         break;
     }
-    printf("jenis pembelian");
-    printf("1.satuan");
-    printf("2.lusinan");
-    printf("3.kodian");
+    puts("jenis pembelian");
+    puts("1.satuan");
+    puts("2.lusinan");
+    puts("3.kodian");
 
-    printf("pilih jenis pembelian");
+    puts("pilih jenis pembelian");
     scanf("%d", &jenis);
 }
