@@ -86,5 +86,7 @@ main()
     }
     printf("Masukan Jumlah yg ingin di beli");
     scanf("%d", &jumlah);
-    
+
+    subtotal = harga * jumlah;
+    total = total + subtotal;
 }
