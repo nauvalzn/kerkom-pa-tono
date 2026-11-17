@@ -2,7 +2,7 @@
 
 main()
 {
-    int harga, total, subtotal, kembalian, pilihan;
+    int harga, total, subtotal, kembalian, pilihan ,jenis;
     printf("1.Mie");
     printf("2.Kopi");
     printf("3.Teh");
@@ -25,4 +25,11 @@ main()
     printf("Pilihan Tdk tersedia");
         break;
     }
+    printf("jenis pembelian");
+    printf("1.satuan");
+    printf("2.lusinan");
+    printf("3.kodian");
+
+    printf("pilih jenis pembelian");
+    scanf("%d", &jenis);
 }
